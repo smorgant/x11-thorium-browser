@@ -31,20 +31,20 @@ This project provides a simple solution for deploying and streaming a Thorium-br
 
     Example command to clone the repository:
     ```bash
-    git clone https://github.com/your-repo/vnc-thorium-stream.git
-    cd vnc-thorium-stream
+    git clone https://github.com/smorgant/x11-thorium-browser.git
+    cd x11-thorium-browser
     ```
 
 2. **Make the Script Executable**
     Navigate to the directory containing the script and ensure it is executable:
     ```bash
-    chmod +x vnc_thorium_stream.py
+    chmod +x x11-thorium.py
     ```
 
 3. **Run the Script**
     Execute the script to start the virtual display, launch Thorium-browser in kiosk mode, and set up the VNC server:
     ```bash
-    python3 vnc_thorium_stream.py
+    python3 x11-thorium.py
     ```
 
 4. **Connect via VNC Viewer**
